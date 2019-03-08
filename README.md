@@ -132,7 +132,7 @@ P:  % change in the dollar, the % change in the US market, the % change in the B
 
 **What is our prediction with K = 3? Why?**
 
-## d 
+### d 
 
 **If the Bayes decision boundary in this problem is highly non- linear, then would we expect the best value for K to be large or small? Why?**
 
