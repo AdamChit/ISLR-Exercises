@@ -57,32 +57,39 @@ P:  % change in the dollar, the % change in the US market, the % change in the B
 
 ### b) **Explain why each of the five curves has the shape displayed in part (a).**
 
-The Bayes/Irreducible error is the variance in the error of the response variable. This is the lower limit of the expected test MSE. So this number is a constant for a test set, which is why it is a straight line through the middle of the graph.
-We know that more flexible models follow/fit the training data more closely which means as flexibility increases the training error decreases. 
-We know that more flexible models follow/fit the training data more closely at a certain point this causes overfitting which is why test error originally deccauses but at a point of overfitting becomes concave up.
-bias decreases as flexibility increases
-variance increases as flexibility increases
+1. The Bayes/Irreducible error is the variance in the error of the response variable. This is the lower limit of the expected test MSE. So this number is a constant for a test set, which is why it is a straight line through the middle of the graph.
+2. We know that more flexible models follow/fit the training data more closely which means as flexibility increases the training error decreases. 
+3. We know that more flexible models follow/fit the training data more closely at a certain point this causes overfitting which is why test error originally deccauses but at a point of overfitting becomes concave up.
+4. bias decreases as flexibility increases
+5. variance increases as flexibility increases
 
 ## Question 4
 
 **You will now think of some real-life applications for statistical learning**
 
-### a) **Describe three real-life applications in which classification might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
+### a
 
-stock market price direction, prediction, response: up, down, input: yesterday's price movement % change, two previous day price movement % change, etc. 
-illness classification, inference, response: ill, healthy, input: resting heart rate, resting breath rate, mile run time 
-car part replacement, prediction, response: needs to be replaced, good, input: age of part, mileage used for, current amperage
+**Describe three real-life applications in which classification might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
 
-### b) **Describe three real-life applications in which regression might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
-CEO salary. inference. predictors: age, industry experience, industry, years of education. response: salary. 
-car part replacement. inference. response: life of car part. predictors: age of part, mileage used for, current amperage. 
-illness classification, prediction, response: age of death, input: current age, gender, resting heart rate, resting breath rate, mile run time. 
+1. stock market price direction, prediction, response: up, down, input: yesterday's price movement % change, two previous day price movement % change, etc. 
+2. illness classification, inference, response: ill, healthy, input: resting heart rate, resting breath rate, mile run time 
+3. car part replacement, prediction, response: needs to be replaced, good, input: age of part, mileage used for, current amperage
 
-### c) **Describe three real-life applications in which cluster analysis might be useful.**
+### b 
 
-cancer type clustering. diagnose cancer types more accurately.
-Netflix movie recommendations. recommend movies based on users who have watched and rated similar movies. 
-marketing survey. clustering of demographics for a product(s) to see which clusters of consumers buy which products.
+**Describe three real-life applications in which regression might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
+1. CEO salary. inference. predictors: age, industry experience, industry, years of education. response: salary. 
+2. car part replacement. inference. response: life of car part. predictors: age of part, mileage used for, current amperage. 
+3. illness classification, prediction, response: age of death, input: current age, gender, resting heart rate, resting breath rate, mile run time. 
+
+### c
+
+**Describe three real-life applications in which cluster analysis might be useful.**
+
+1. cancer type clustering. diagnose cancer types more accurately.
+2. Netflix movie recommendations. recommend movies based on users who have watched and rated similar movies. 
+3. marketing survey. clustering of demographics for a product(s) to see which clusters of consumers buy which products.
+
 
 ## Question 5
 
