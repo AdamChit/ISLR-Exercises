@@ -55,6 +55,8 @@ P:  % change in the dollar, the % change in the US market, the % change in the B
 
 ### a) **Provide a sketch of typical (squared) bias, variance, training error, test error, and Bayes (or irreducible) error curves, on a sin- gle plot, as we go from less flexible statistical learning methods towards more flexible approaches. The x-axis should represent the amount of flexibility in the method, and the y-axis should represent the values for each curve. There should be five curves. Make sure to label each one.**
 
+![]()
+
 ### b) **Explain why each of the five curves has the shape displayed in part (a).**
 
 1. The Bayes/Irreducible error is the variance in the error of the response variable. This is the lower limit of the expected test MSE. So this number is a constant for a test set, which is why it is a straight line through the middle of the graph.
@@ -67,24 +69,18 @@ P:  % change in the dollar, the % change in the US market, the % change in the B
 
 **You will now think of some real-life applications for statistical learning**
 
-### a
-
-**Describe three real-life applications in which classification might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
+### a) **Describe three real-life applications in which classification might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
 
 1. stock market price direction, prediction, response: up, down, input: yesterday's price movement % change, two previous day price movement % change, etc. 
 2. illness classification, inference, response: ill, healthy, input: resting heart rate, resting breath rate, mile run time 
 3. car part replacement, prediction, response: needs to be replaced, good, input: age of part, mileage used for, current amperage
 
-### b 
-
-**Describe three real-life applications in which regression might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
+### b) **Describe three real-life applications in which regression might be useful. Describe the response, as well as the predictors. Is the goal of each application inference or prediction? Explain your answer.**
 1. CEO salary. inference. predictors: age, industry experience, industry, years of education. response: salary. 
 2. car part replacement. inference. response: life of car part. predictors: age of part, mileage used for, current amperage. 
 3. illness classification, prediction, response: age of death, input: current age, gender, resting heart rate, resting breath rate, mile run time. 
 
-### c
-
-**Describe three real-life applications in which cluster analysis might be useful.**
+### c) **Describe three real-life applications in which cluster analysis might be useful.**
 
 1. cancer type clustering. diagnose cancer types more accurately.
 2. Netflix movie recommendations. recommend movies based on users who have watched and rated similar movies. 
